@@ -32,7 +32,6 @@ body {
 .cabecalho {
     background-color: var(--cor-secundaria);
     height: 4.5em;
-    width: 100%;
     padding: 0.5em 0 0 10em;
     margin-bottom: 1.5em;
 }
@@ -189,11 +188,25 @@ body {
 
 .container__imagem__mapajapao {
     height: 35em;
-    width: auto;
     margin-top: 3em;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
+    .cabecalho {
+        padding: 0.5em 0 0 2em;
+    }
+
+    .cabecalho__menu {
+        gap: 2em;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+    
     .container {
         margin: 0 3em;
     }
@@ -202,7 +215,24 @@ body {
         flex-direction: column;
     }
 
+    .secundario {
+        margin: 0;
+    }
+
     .container__link {
-        width: 15em;
+        width: 10em;
+    }
+
+    .container__conteudo {
+        padding: 0em;
+    }
+
+    .container__conteudo__imagem {
+        width: 70%;
+    }
+
+    .container__imagem__mapajapao {
+        height: 25em;
+        margin-top: 3em;
     }
 }
