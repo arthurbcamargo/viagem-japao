@@ -83,8 +83,6 @@ body {
 }
 
 .secundario {
-    gap: 2em;
-    height: auto;
     margin: 2em 20em 0 20em;
 }
 
@@ -111,14 +109,16 @@ body {
     background-color: var(--cor-secundaria);
     border: 2px solid var(--cor-secundaria);
     border-radius: 20px;
-}
-
-.container__link:hover {
-    background-color: var(--cor-secundaria-low);
+    color: var(--cor-fundo);
 }
 
 .container__link:visited {
     color: var(--cor-fundo);
+}
+
+.container__link:hover {
+    background-color: var(--cor-secundaria-low);
+    color: var(--cor-principal);
 }
 
 .container__conteudo {
@@ -165,7 +165,7 @@ body {
 }
 
 .container__conteudo__imagem {
-    width: 30em;
+    width: 50%;
     display: block;
     margin: 2.5em auto;
 }
@@ -193,7 +193,7 @@ body {
     margin-top: 3em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .container {
         margin: 0 3em;
     }
