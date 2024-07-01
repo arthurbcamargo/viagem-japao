@@ -10,11 +10,11 @@
     --fonte-tamanho-texto: 16px;
     --fonte-tamanho-titulo: 68px;
     --fonte-tamanho-subtitulo: 38px;
-    --fonte-tamanho-subtitulo-descricao: 24px;
+    --fonte-tamanho-subtitulo-conteudo: 24px;
     --fonte-peso-texto: 400;
     --fonte-peso-titulo: 900;
     --fonte-peso-subtitulo: 700;
-    --fonte-peso-subtitulo-descricao: 600px;
+    --fonte-peso-subtitulo-conteudo: 600px;
 }
 
 * {
@@ -32,6 +32,7 @@ body {
 .cabecalho {
     background-color: var(--cor-secundaria);
     height: 4.5em;
+    width: 100%;
     padding: 0.5em 0 0 10em;
     margin-bottom: 1.5em;
 }
@@ -48,6 +49,27 @@ body {
 }
 
 .cabecalho__menu__nav:hover {
+    color: var(--cor-principal);
+}
+
+.nav {
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.nav__item {
+    color: var(--cor-texto);
+    font-size: var(--fonte-tamanho-subtitulo-conteudo);
+    font-weight: var(--fonte-peso-subtitulo-conteudo);
+}
+
+.nav__item:visited {
+    color: var(--cor-texto);
+}
+
+.nav__item:hover {
     color: var(--cor-principal);
 }
 
@@ -99,30 +121,30 @@ body {
     color: var(--cor-fundo);
 }
 
-.container__descricao {
+.container__conteudo {
     color: var(--cor-texto);
     height: fit-content;
     padding: 1.5em;
 }
 
-.container__descricao:hover {
+.container__conteudo:hover {
     display: pass;
 }
 
-.container__descricao__titulo {
+.container__conteudo__titulo {
     font-size: var(--fonte-tamanho-subtitulo);
     font-weight: var(--fonte-peso-subtitulo);
     text-align: center;
     margin-bottom: 0.6em;
 }
 
-.container__descricao__subtitulo {
-    font-size: var(--fonte-tamanho-subtitulo-descricao);
-    font-weight: var(--fonte-peso-subtitulo-descricao);
+.container__conteudo__subtitulo {
+    font-size: var(--fonte-tamanho-subtitulo-conteudo);
+    font-weight: var(--fonte-peso-subtitulo-conteudo);
     margin: 0 0 0.5em 3em;
 }
 
-.container__descricao__texto {
+.container__conteudo__texto {
     font-size: var(--fonte-tamanho-texto);
     font-weight: var(--fonte-peso-texto);
     margin: 0.5em 3em 2em 3em;
@@ -130,19 +152,19 @@ body {
     text-indent: 2em;
 }
 
-.container__descricao__lista {
+.container__conteudo__lista {
     margin: 0 4em 2em 5em;
 }
 
-.container__descricao__lista__link {
+.container__conteudo__lista__link {
     color: var(--cor-texto);
 }
 
-.container__descricao__lista__link:hover {
+.container__conteudo__lista__link:hover {
     color: var(--cor-principal);
 }
 
-.container__descricao__imagem {
+.container__conteudo__imagem {
     width: 30em;
     display: block;
     margin: 2.5em auto;
