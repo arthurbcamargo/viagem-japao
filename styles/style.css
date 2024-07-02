@@ -2,9 +2,9 @@
 
 :root {
     --cor-principal: black;
-    --cor-secundaria: gray;
     --cor-texto: black;
     --cor-bg: rgba(255, 255, 255, 0.850);
+    --cor-bg-low: rgba(255, 255, 255, 0.700);
     --fonte-principal: "Noto Serif", sans-serif;
     --fonte-tamanho-texto: 16px;
     --fonte-tamanho-titulo: 68px;
@@ -92,12 +92,6 @@ body {
     text-align: center;
     font-size: var(--fonte-tamanho-titulo);
     font-weight: var(--fonte-peso-titulo);
-}
-
-.subtitulo {
-    text-align: center;
-    font-size: var(--fonte-tamanho-titulo);
-    font-weight: var(--fonte-peso-titulo);
     background-color: var(--cor-bg);
     margin-top: 0.7em;
 }
@@ -109,8 +103,8 @@ body {
     width: 10em;
     padding: 0.5em 0;
     margin: 1em;
-    background-color: var(--cor-secundaria);
-    border: 2px solid var(--cor-secundaria);
+    background-color: var(--cor-bg);
+    border: 2px solid var(--cor-principal);
     border-radius: 20px;
     color: var(--cor-principal);
 }
@@ -120,7 +114,7 @@ body {
 }
 
 .container__link:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-bg-low);
     color: var(--cor-principal);
 }
 
@@ -191,9 +185,10 @@ body {
     text-align: center;
 }
 
-.container__imagem__mapajapao {
+.container__imagem__mapatokyo {
     height: 35em;
     margin-top: 3em;
+    opacity: 0.9;
 }
 
 @media (max-width: 1300px) {
@@ -225,7 +220,7 @@ body {
         margin: 0;
     }
 
-    .subtitulo {
+    .titulo {
         margin-left: 1em;
         margin-right: 1em;
     }
