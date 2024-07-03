@@ -11,25 +11,79 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
+            <img class="cabecalho__icone" src="/assets/japanflag.png" alt="bandeira do japao">
             <a href="index.html" class="cabecalho__menu__nav">Inicio</a>
             <a href="dicas.html" class="cabecalho__menu__nav">Dicas</a>
         </nav>
     </header>
 
-    <div class="secundario">
+    <div class="principal">
         <h1 class="titulo">Viagem Japão</h1>
     </div>
-    <section class="container principal">
-        <a class="container__link" href="tokyo.html">Tokyo</a>
-        <a class="container__link" href="kyoto.html">Kyoto</a>
-        <a class="container__link" href="osaka.html">Osaka</a>
-    </section>
+    <nav class="nav">
+        <a class="nav__item" href="#tokyo">Tokyo</a>
+        <a class="nav__item" href="#osaka">Osaka</a>
+        <a class="nav__item" href="#kyoto">Kyoto</a>
+    </nav>
 
+    <section class="container principal">
+        <div class="container__conteudo">
+
+            <a class="container__conteudo__link" href="tokyo.html">
+                <div class="container__conteudo__secao" id="tokyo">
+                    <h2 class="container__conteudo__titulo">Tokyo</h2>
+                    <p class="container__conteudo__texto">Tokyo, a capital do Japão, é uma metrópole vibrante onde a
+                        tradição e a modernidade coexistem de maneira harmoniosa. A cidade oferece uma rica tapeçaria de
+                        experiências, desde templos históricos como o Senso-ji e o Palácio Imperial até bairros
+                        futuristas como Shibuya e Shinjuku. Conhecida por sua gastronomia de renome mundial, Tóquio
+                        encanta com restaurantes Michelin e mercados de frutos do mar frescos. A cidade também é um
+                        epicentro de cultura, moda e tecnologia, com museus de classe mundial, teatros tradicionais e
+                        uma próspera cena de anime e manga. Tóquio é uma cidade onde o passado e o futuro se encontram,
+                        proporcionando uma experiência inesquecível aos seus visitantes.
+                    </p>
+                </div>
+            </a>
+
+            <a class="container__conteudo__link" href="osaka.html">
+                <div class="container__conteudo__secao" id="osaka">
+                    <h2 class="container__conteudo__titulo">Osaka</h2>
+                    <p class="container__conteudo__texto">Osaka, a terceira maior cidade do Japão, é conhecida por sua
+                        vibrante cultura urbana e sua culinária excepcional. Situada na região de Kansai, Osaka combina
+                        a odernidade de arranha-céus e centros comerciais com a tradição de templos e santuários
+                        históricos. A cidade é famosa por suas delícias gastronômicas, como takoyaki e okonomiyaki, e
+                        por seus animados distritos de entretenimento, como Dotonbori, repletos de neon e vida noturna.
+                        Com importantes marcos como o Castelo de Osaka e o aquário Kaiyukan, além de ser um importante
+                        centro de negócios e comércio, Osaka oferece uma experiência dinâmica e acolhedora, refletindo a
+                        hospitalidade calorosa de seus habitantes.
+                    </p>
+                </div>
+            </a>
+
+            <a class="container__conteudo__link" href="kyoto.html">
+                <div class="container__conteudo__secao" id="kyoto">
+                    <h2 class="container__conteudo__titulo">Kyoto</h2>
+                    <p class="container__conteudo__texto">Kyoto, antiga capital imperial do Japão, é uma cidade rica em
+                        história e cultura. Conhecida por seus inúmeros templos budistas, santuários xintoístas, jardins
+                        tradicionais e palácios imperiais, Kyoto oferece uma janela para o passado do Japão. Maravilhas
+                        como o Templo Kinkaku-ji (Pavilhão Dourado), o Templo Fushimi Inari com seus milhares de torii
+                        vermelhos e o Castelo Nijo são imperdíveis. As ruas de Gion, o famoso distrito de gueixas, são
+                        encantadoras com suas casas de chá e arquitetura tradicional. Kyoto também é famosa por suas
+                        cerimônias de chá e festivais sazonais, que destacam a beleza das flores de cerejeira na
+                        primavera e as folhas vermelhas no outono. É uma cidade onde a herança cultural do Japão é
+                        preservada e celebrada em cada esquina.
+                    </p>
+                </div>
+            </a>
+
+        </div>
+    </section>
     <div class="container__imagem">
-        <img class="container__imagem__mapatokyo" src="assets/tokyomap.png" alt="Mapa Japao">
+        <img class="container__imagem__mapatokyo" src="assets/tokyomap.png" alt="mapa tokyo">
     </div>
+
     <footer class="rodape">
-        <p class="rodape__texto">Feito pelo Arthur</p>
+        <nav class="rodape__menu"></nav>
+        <p class="rodape__menu__conteudo">Feito pelo Arthur</p>
     </footer>
 </body>
 
