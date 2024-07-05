@@ -3,8 +3,7 @@
 :root {
     --cor-principal: black;
     --cor-texto: black;
-    --cor-bg: rgba(255, 255, 255, 0.850);
-    --cor-bg-low: rgba(255, 255, 255, 0.700);
+    --cor-bg: rgba(255, 255, 255, 0.900);
     --fonte-principal: "Noto Serif", sans-serif;
     --fonte-tamanho-texto: 18px;
     --fonte-tamanho-titulo: 68px;
@@ -93,8 +92,8 @@ body {
     text-align: center;
     font-size: var(--fonte-tamanho-titulo);
     font-weight: var(--fonte-peso-titulo);
-    background-color: var(--cor-bg);
     margin-top: 0.7em;
+    background-color: var(--cor-bg);
 }
 
 .container__conteudo {
@@ -104,16 +103,10 @@ body {
 
 .container__conteudo__link {
     color: var(--cor-principal);
-    transition: transform 0.3s ease;
-    display: inline-block;
 }
 
 .container__conteudo__link:visited {
     color: var(--cor-principal);
-}
-
-.container__conteudo__link:hover {
-    transform: translateY(-15px);
 }
 
 .container__conteudo__secao {
@@ -161,6 +154,8 @@ body {
     width: 50%;
     display: block;
     margin: 2.5em auto;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 
 .rodape {
@@ -228,7 +223,7 @@ body {
     }
 
     .container__conteudo__texto {
-        margin: 0.5em 3em 2em 3em;
+        margin: 0.5em 1.5em 2em 1.5em;
     }
 
     .container__conteudo__lista {
