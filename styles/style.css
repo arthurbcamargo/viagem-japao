@@ -68,7 +68,7 @@ body {
     color: var(--cor-texto);
     font-size: var(--fonte-tamanho-subtitulo-conteudo);
     font-weight: var(--fonte-peso-subtitulo-conteudo);
-    padding: 0 0.75em;
+    padding: 0 0.6em;
     text-align: center;
 }
 
