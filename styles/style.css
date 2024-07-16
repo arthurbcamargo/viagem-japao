@@ -60,15 +60,15 @@ body {
     display: flex;
     justify-content: center;
     margin: 3em 20em 0 20em;
-    padding: 1em;
+    padding: 1.5em 2em;
     background-color: var(--cor-bg);
 }
 
 .nav__item {
+    margin: auto;
     color: var(--cor-texto);
     font-size: var(--fonte-tamanho-subtitulo-conteudo);
     font-weight: var(--fonte-peso-subtitulo-conteudo);
-    padding: 0 0.6em;
     text-align: center;
 }
 
@@ -124,7 +124,7 @@ body {
 .container__conteudo__subtitulo {
     font-size: var(--fonte-tamanho-subtitulo-conteudo);
     font-weight: var(--fonte-peso-subtitulo-conteudo);
-    margin-left: 5.5em;
+    margin: 0 0 0.5em 1em;
 }
 
 .container__conteudo__texto {
@@ -151,7 +151,7 @@ body {
 }
 
 .container__conteudo__imagem {
-    width: 50%;
+    width: 70%;
     display: block;
     margin: 2.5em auto;
     border: 1px solid transparent;
