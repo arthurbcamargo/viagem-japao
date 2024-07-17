@@ -136,7 +136,7 @@ body {
 }
 
 .container__conteudo__lista {
-    margin: 1.5em 7em 1.5em 8em;
+    margin: 0 7em;
     display: flex;
     flex-direction: column;
 }
@@ -192,12 +192,17 @@ body {
         padding-left: 2em;
     }
 
+
     .nav {
         flex-direction: column;
         gap: 1.5em;
         align-items: center;
-        margin: 3em auto 0 auto;
-        width: 12em;
+        margin: 3em 1.5em 0 1.5em;
+        
+    }
+
+    .nav__item {
+        margin: 0;
     }
 
     .container {
@@ -209,8 +214,8 @@ body {
     }
 
     .titulo {
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 0.35em;
+        margin-right: 0.35em;
     }
 
     .container__conteudo {
@@ -218,7 +223,6 @@ body {
     }
 
     .container__conteudo__subtitulo {
-        margin: 0 0 0 3.5em;
         font-size: 24px;
     }
 
@@ -231,6 +235,6 @@ body {
     }
 
     .container__conteudo__imagem {
-        width: 70%;
+        width: 90%;
     }
 }
