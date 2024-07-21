@@ -216,6 +216,7 @@ body {
     .titulo {
         margin-left: 0.35em;
         margin-right: 0.35em;
+        font-size: 48px;
     }
 
     .container__conteudo {
