@@ -216,11 +216,15 @@ body {
     .titulo {
         margin-left: 0.35em;
         margin-right: 0.35em;
-        font-size: 48px;
+        font-size: 42px;
     }
 
     .container__conteudo {
         padding: 0 1.5em;
+    }
+
+    .container__conteudo__titulo {
+        font-size: 38px;
     }
 
     .container__conteudo__subtitulo {
